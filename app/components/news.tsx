@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import WebImage from '../../public/resources/webdesign.jpg';
+import WebImage from '../../public/resources/webinar.jpg';
 import CareerImage from '../../public/resources/career.jpg';
 import Hacka from '@/public/resources/hacka.jpg';
 import TechExpo from '@/public/resources/tecexpo.jpg';

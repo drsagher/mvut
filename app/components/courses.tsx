@@ -1,5 +1,5 @@
 import FullStackImage from '../../public/resources/webdesign.jpg';
-import AIIntroImage from '../../public/resources/allintro.jpg';
+import AIIntroImage from '../../public/resources/aiintro.jpg';
 import DataScImage from '../../public/resources/datasc.jpg';
 import ResearchDevImage from '../../public/resources/researchdev.jpg';
 import GraphicsImage from '../../public/resources/graphics.jpg';

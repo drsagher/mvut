@@ -6,9 +6,7 @@ import { usePathname } from 'next/navigation';
 import Link from "next/link";
 import {useState} from "react";
 import { IoClose } from "react-icons/io5";
-import Bg from '../resources/hero.jpg';
-import Image from "next/image";
-import * as url from "node:url";
+
 export default function NavComponent(){
     const brandName = 'MVUT';
     const pathname = usePathname();
@@ -20,17 +18,6 @@ export default function NavComponent(){
         {id:4, name:'Blogs', path:'#'},
         // {id:5, name:'Alumni', path:'#'},
     ]
-
-    // const InfoLinksA=[
-    //     {id:1, name:'News', path:'#'},
-    //     {id:2, name:'Events', path:'#'},
-    //     {id:3, name:'Academic', path:'#'},
-    //     {id:4, name:'Research', path:'#'},
-    //     {id:5, name:'Health Care', path:'#'},
-    //     {id:6, name:'Campus Life', path:'#'},
-    //     {id:7, name:'Admission', path:'#'},
-    //     {id:8, name:'About', path:'#'},
-    // ]
     const [menuOpen, setMenuOpen] = useState(false);
     const handlerNav =()=>{
         setMenuOpen(!menuOpen);
@@ -92,19 +79,6 @@ return(
                 </div>
 
             </div>
-
-            {/*<div className={'flex items-center justify-center gap-2 h-14 w-full '}>*/}
-            {/*    {InfoLinksA.map((link) => {*/}
-            {/*        return (*/}
-            {/*            <Link key={link.id}*/}
-            {/*                  href={'#'}*/}
-            {/*                  className={`${isActive(link.path) ? 'underline' : 'no-underline'} flex items-center justify-center gap-2 hover:border-b hover:border-red-600 text-white font-bold hover:text-red-600 h-14 px-4 text-xl`}*/}
-            {/*            >*/}
-            {/*                {link.name}*/}
-            {/*            </Link>*/}
-            {/*        );*/}
-            {/*    })}*/}
-            {/*</div>*/}
         </div>
     </div>
 )
