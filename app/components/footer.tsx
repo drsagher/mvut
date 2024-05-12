@@ -65,51 +65,37 @@ export default function FooterComponent(){
             {/*</div>*/}
             <div className={'flex items-start justify-between px-24 py-10 bg-center bg-gray-50 w-full'}>
                 <div className={'flex flex-col text-gray-950'}>
-                    <address className={'text-lg '}>
+                    <h2 className={'text-lg font-bold uppercase'}>Contact</h2>
+                    <address className={'text-md '}>
                         Bakha Hans, Pakpattan, Punjab, Pakistan
                     </address>
                     <div className={'flex items-center gap-1'}>
-                        <MdOutlineMailOutline/>Email: <p>dr.sagher@gmail.com</p>
+                        <MdOutlineMailOutline size={20}/><p>dr.sagher@gmail.com</p>
                     </div>
                     <div className={'flex items-center gap-1'}>
-                        <FaWhatsapp/>
-                        Mobile: <p>+923017362696</p>
+                        <FaWhatsapp size={20}/>
+                        <p>+923017362696</p>
                     </div>
                     <div className={'flex items-center gap-1'}>
-                        <TiSocialSkypeOutline />
-                        Skype <p>dr.sagher</p>
+                        <TiSocialSkypeOutline size={24}/>
+                        <p>dr.sagher</p>
                     </div>
-                    <div className="flex text-gray-950 justify-start items-center gap-2 py-2">
-                        <Link href="" className="hover:text-pink-600">
-                            <FaFacebook size={24}/>
-                        </Link>
 
-                        <Link href="" className="hover:text-pink-600">
-                            <FaLinkedin size={24}/>
-                        </Link>
-
-                        <Link href="" className="hover:text-pink-600">
-                            <FaInstagram size={24}/>
-                        </Link>
-
-                        <Link href="" className="hover:text-pink-600">
-                            <FaSquareTwitter size={24}/>
-                        </Link>
-
-                        <Link href="" className="hover:text-pink-600">
-                            <FaYoutube size={24}/>
-                        </Link>
-                    </div>
                 </div>
                 <div>
                     <h2 className={'text-lg font-bold uppercase'}>AI Courses</h2>
                     <ul>
-                        <li className={'hover:underline hover:text-red-600'}><Link href={''}>Machine Learning Fundamentals</Link></li>
-                        <li className={'hover:underline hover:text-red-600'}><Link href={''}>Deep Learning with Python</Link></li>
-                        <li className={'hover:underline hover:text-red-600'}><Link href={''}>Artificial Intelligence (AI) for
+                        <li className={'hover:underline hover:text-red-600'}><Link href={''}>Machine Learning
+                            Fundamentals</Link></li>
+                        <li className={'hover:underline hover:text-red-600'}><Link href={''}>Deep Learning with
+                            Python</Link></li>
+                        <li className={'hover:underline hover:text-red-600'}><Link href={''}>Artificial Intelligence
+                            (AI) for
                             Beginners</Link></li>
-                        <li className={'hover:underline hover:text-red-600'}><Link href={''}>Natural Language Processing (NLP)</Link></li>
-                        <li className={'hover:underline hover:text-red-600'}><Link href={''}>Computer Vision with Python</Link></li>
+                        <li className={'hover:underline hover:text-red-600'}><Link href={''}>Natural Language Processing
+                            (NLP)</Link></li>
+                        <li className={'hover:underline hover:text-red-600'}><Link href={''}>Computer Vision with
+                            Python</Link></li>
                         <li className={'hover:underline hover:text-red-600'}><Link href={''}>Robotics and Autonomous Systems</Link></li>
                         <li className={'hover:underline hover:text-red-600'}><Link href={''}>AI Ethics and Bias</Link></li>
                         <li className={'hover:underline hover:text-red-600'}><Link href={''}>Reinforcement Learning</Link></li>
@@ -155,7 +141,18 @@ export default function FooterComponent(){
                 </div>
             </div>
             <div
-                className="flex justify-end items-center bg-black text-white py-6 px-10">
+                className="flex justify-between items-center bg-black text-white py-6 px-10">
+                <div className="flex justify-start items-center gap-6 py-2 ">
+                    <Link href="https://web.facebook.com/mvutus" className=" hover:text-pink-600">
+                        <FaFacebook size={30}/>
+                    </Link>
+                    <Link href="https://www.youtube.com/@mvut" className="hover:text-pink-600">
+                        <FaYoutube size={40}/>
+                    </Link>
+                    <Link href="https://chat.whatsapp.com/IpG66lObuHo3MUelWoH6tu" className="hover:text-pink-600">
+                        <FaWhatsapp size={40}/>
+                    </Link>
+                </div>
                 &copy;2024 Mansha Virtual Univeristy of Technologies, Pakistan
             </div>
 
