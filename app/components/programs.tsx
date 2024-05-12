@@ -1,4 +1,4 @@
-import WebImage from '../../public/resources/webdesign.jpg';
+import WebImage from '../../public/resources/freelance.jpg';
 import Image from "next/image";
 import Ug from '@/public/resources/ug.jpg';
 import Gra from '@/public/resources/gra.jpg';
@@ -8,7 +8,7 @@ import Dip from '@/public/resources/dip.jpg';
 export default function ProgramComponent(){
     return (
         <div className="flex-col container mb-8 container mx-auto">
-            <h2 className="text-xl text-indigo-900 font-bold">ONLINE LEARNING</h2>
+            <h2 className="text-xl text-indigo-900 font-bold">Online Learning Skills for a Brighter Tomorrow</h2>
 
             <div className="flex py-10 gap-4">
                 <div
