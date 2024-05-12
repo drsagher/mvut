@@ -143,13 +143,13 @@ export default function FooterComponent(){
             <div
                 className="flex justify-between items-center bg-black text-white py-6 px-10">
                 <div className="flex justify-start items-center gap-6 py-2 ">
-                    <Link href="https://web.facebook.com/mvutus" className=" hover:text-pink-600">
+                    <Link target="_blank" href="https://web.facebook.com/mvutus" className=" hover:text-pink-600">
                         <FaFacebook size={30}/>
                     </Link>
-                    <Link href="https://www.youtube.com/@mvut" className="hover:text-pink-600">
+                    <Link target="_blank" href="https://www.youtube.com/@mvut" className="hover:text-pink-600">
                         <FaYoutube size={40}/>
                     </Link>
-                    <Link href="https://chat.whatsapp.com/IpG66lObuHo3MUelWoH6tu" className="hover:text-pink-600">
+                    <Link target="_blank" href="https://chat.whatsapp.com/IpG66lObuHo3MUelWoH6tu" className="hover:text-pink-600">
                         <FaWhatsapp size={40}/>
                     </Link>
                 </div>

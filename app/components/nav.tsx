@@ -12,10 +12,10 @@ export default function NavComponent(){
     const pathname = usePathname();
     const isActive = (path: string) => path === pathname;
     const InfoLinks=[
-        {id:1, name:'Admissions', path:'#'},
-        {id:2, name:'Faculties', path:'#'},
-        {id:3, name:'Courses', path:'#'},
-        {id:4, name:'Blogs', path:'#'},
+        // {id:1, name:'Admissions', path:'#'},
+        {id:1, name:'Faculties', path:'#'},
+        {id:2, name:'Courses', path:'#'},
+        {id:3, name:'Blogs', path:'#'},
     ]
     // const [menuOpen, setMenuOpen] = useState(false);
     // const handlerNav =()=>{
