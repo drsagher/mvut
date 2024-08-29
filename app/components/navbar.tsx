@@ -26,7 +26,7 @@ export default function MyHeaderComponent(){
             </div>
             <div className={'flex flex-col sm:flex-row items-center justify-center sm:justify-between sm:px-4 sm:py-4 bg-teal-900 text-gray-50 '}>
                 <p className={'font-bold text-2xl uppercase'}>Mvut</p>
-                <p className={'uppercase italic text-md text-white'}>Empowering People</p>
+                <p className={'text-sm text-white uppercase'}>Empowering People for a Century of Growth and Discovery</p>
             </div>
         </div>
     );
